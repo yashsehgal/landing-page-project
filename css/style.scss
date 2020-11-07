@@ -6,7 +6,15 @@ html {
   height: 100%;
 }
 body {
-  background: url('/assets/images/photo-1469474968028-56623f02e42e.jpg') no-repeat fixed;
+  background: url('/photo-1469474968028-56623f02e42e.jpg') no-repeat fixed;
+  // height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root {
+  background: url('/photo-1469474968028-56623f02e42e.jpg') no-repeat fixed;
   // height: 100%;
   background-position: center;
   background-repeat: no-repeat;
