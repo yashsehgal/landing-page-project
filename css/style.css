@@ -13,13 +13,6 @@ body {
   background-size: cover;
 }
 
-#root {
-  background: url("/photo-1469474968028-56623f02e42e.jpg") no-repeat fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #introduction-container {
   padding-bottom: 14em;
 }
