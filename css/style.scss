@@ -1,12 +1,19 @@
+/// importing google fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
 * {
   margin: 0;
 }
 
 html {
-  height: 100%;
+  // height: 100%;
 }
 body {
-  background: url('/photo-1469474968028-56623f02e42e.jpg') no-repeat fixed;
+  background: url('/photo-1469474968028-56623f02e42e.png') no-repeat fixed;
+  // background: 
+  background-attachment: fixed;
   // height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +27,52 @@ body {
 //   background-repeat: no-repeat;
 //   background-size: cover;
 // }
+
+.header {
+  // float: left;
+  text-align: center;
+  // top: auto;
+}
+
+#header-container {
+  text-align: center;
+  padding-left:6em;
+  // background-color: black;
+}
+
+#header-section {
+  // background-color: black;
+}
+
+#logo {
+  color: white;
+  font-family: 'Montserrat', monospace;
+  font-weight: bolder;
+  float: left;
+}
+
+.header-option {
+  float: right;
+  font-family: 'Open Sans', monospace;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+#header-option-section {
+  padding-right: 3em;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(98, 0, 255);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 14%;
+}
 
 #introduction-container {
   padding-bottom: 14em;
@@ -341,3 +394,13 @@ body {
     font-weight: 600
   }
 }
+
+
+// .bg {
+//   height: 100%;
+//   background-attachment: fixed;
+//   // height: 100%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
