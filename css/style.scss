@@ -12,7 +12,7 @@
 // }
 
 body {
-  background: url('/assets/images/photo-1469474968028-56623f02e42e.png');
+  background: url('C:/Users/yashs/Desktop/landing-page-project/assets/images/photo-1469474968028-56623f02e42e.png');
   // backno-repeat fixed;
   // background: 
   background-attachment: fixed;
@@ -434,3 +434,16 @@ body {
 // .sticky+.content {
 //   padding-top: 102px;
 // }
+
+/// testing image hovering code
+.card-01 img {
+  transition: transform 0.6s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+/* The Transformation */
+.card-01:hover img {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
