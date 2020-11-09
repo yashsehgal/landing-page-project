@@ -1,5 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1540" height="475" viewBox="0 0 1540 475">
   <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #5d00ff;
+      }
+
+      .cls-11, .cls-2, .cls-4, .cls-6, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-3, .cls-8 {
+        font-size: 18px;
+      }
+
+      .cls-11, .cls-12, .cls-3, .cls-4, .cls-6, .cls-7 {
+        font-family: OpenSans-SemiBold, Open Sans;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        font-size: 34px;
+      }
+
+      .cls-5 {
+        fill: url(#pattern);
+      }
+
+      .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-7 {
+        fill: #c4c4c4;
+      }
+
+      .cls-12, .cls-7 {
+        font-size: 10px;
+      }
+
+      .cls-8 {
+        font-family: OpenSans-Regular, Open Sans;
+      }
+
+      .cls-9 {
+        fill: #00567b;
+      }
+
+      .cls-10 {
+        fill: red;
+      }
+
+      .cls-12 {
+        fill: #c5c5c5;
+      }
+
+      .cls-13 {
+        filter: url(#article-01-2);
+      }
+
+      .cls-14 {
+        filter: url(#article-01);
+      }
+    </style>
     <filter id="article-01" x="0" y="0" width="939" height="475" filterUnits="userSpaceOnUse">
       <feOffset dy="10" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
@@ -20,36 +82,36 @@
   </defs>
   <g id="block-02" transform="translate(-152 -623)">
     <g id="card-01" transform="translate(0 433)">
-      <g transform="matrix(1, 0, 0, 1, 152, 190)" filter="url(#article-01)">
-        <rect id="article-01-3" data-name="article-01" width="879" height="415" transform="translate(30 20)" fill="#fff"/>
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, 152, 190)">
+        <rect id="article-01-3" data-name="article-01" class="cls-1" width="879" height="415" transform="translate(30 20)"/>
       </g>
       <g id="Group_31" data-name="Group 31" transform="translate(13 12)">
-        <rect id="Rectangle_8" data-name="Rectangle 8" width="157" height="30" rx="15" transform="translate(219 241)" fill="#0008ff"/>
-        <text id="review" transform="translate(269 263)" fill="#fff" font-size="18" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">review</tspan></text>
+        <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-2" width="157" height="30" rx="15" transform="translate(219 241)"/>
+        <text id="review" class="cls-3" transform="translate(269 263)"><tspan x="0" y="0">review</tspan></text>
       </g>
-      <text id="A_lot_of_travellers_are_using_TravelHub." data-name="A lot of travellers are using TravelHub." transform="translate(232 349)" fill="#656565" font-size="34" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">A lot of travellers are using TravelHub.</tspan></text>
-      <circle id="human" cx="22.5" cy="22.5" r="22.5" transform="translate(232 370)" fill="url(#pattern)"/>
-      <text id="John_Doe" data-name="John Doe" transform="translate(297 391)" fill="#656565" font-size="14" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">John Doe</tspan></text>
-      <text id="Ratings:_5k" data-name="Ratings: 5k" transform="translate(296 406)" fill="#999" font-size="10" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">Ratings: 5k</tspan></text>
+      <text id="A_lot_of_travellers_are_using_TravelHub." data-name="A lot of travellers are using TravelHub." class="cls-4" transform="translate(232 349)"><tspan x="0" y="0">A lot of travellers are using TravelHub.</tspan></text>
+      <circle id="human" class="cls-5" cx="22.5" cy="22.5" r="22.5" transform="translate(232 370)"/>
+      <text id="John_Doe" data-name="John Doe" class="cls-6" transform="translate(297 391)"><tspan x="0" y="0">John Doe</tspan></text>
+      <text id="Ratings:_5k" data-name="Ratings: 5k" class="cls-7" transform="translate(296 406)"><tspan x="0" y="0">Ratings: 5k</tspan></text>
       <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit._Nostrum_dignissimos_alias_consequuntur_natus_enim_aliquam_autem_numquam_tempora._Quasi_veritatis_natus_sunt_dolorem_eos_fuga_ea_delectus._Ut_nostrum_voluptate_similique_velit_consequatur_reiciendi" data-name="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum dignissimos
 alias consequuntur natus enim aliquam autem numquam tempora. Quasi, veritatis
 natus sunt dolorem eos fuga ea delectus. Ut nostrum voluptate, similique velit
-consequatur reiciendi" transform="translate(232 458)" fill="#707070" font-size="18" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum dignissimos</tspan><tspan x="0" y="24">alias consequuntur natus enim aliquam autem numquam tempora. Quasi, veritatis</tspan><tspan x="0" y="48">natus sunt dolorem eos fuga ea delectus. Ut nostrum voluptate, similique velit</tspan><tspan x="0" y="72">consequatur reiciendis tempore debitis temporibus numquam voluptatem sint nulla,</tspan><tspan x="0" y="96">error porro laudantium est quam adipisci quidem? Molestias officiis vel reiciendis</tspan><tspan x="0" y="120">delectus ab eaque cum dolorum omnis totam ipsum.</tspan></text>
+consequatur reiciendi" class="cls-8" transform="translate(232 458)"><tspan x="0" y="0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum dignissimos</tspan><tspan x="0" y="24">alias consequuntur natus enim aliquam autem numquam tempora. Quasi, veritatis</tspan><tspan x="0" y="48">natus sunt dolorem eos fuga ea delectus. Ut nostrum voluptate, similique velit</tspan><tspan x="0" y="72">consequatur reiciendis tempore debitis temporibus numquam voluptatem sint nulla,</tspan><tspan x="0" y="96">error porro laudantium est quam adipisci quidem? Molestias officiis vel reiciendis</tspan><tspan x="0" y="120">delectus ab eaque cum dolorum omnis totam ipsum.</tspan></text>
     </g>
     <g id="Group_33" data-name="Group 33" transform="translate(934 509)">
-      <g transform="matrix(1, 0, 0, 1, -782, 114)" filter="url(#article-01-2)">
-        <rect id="article-01-4" data-name="article-01" width="546" height="327" transform="translate(964 64)" fill="#00567b"/>
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -782, 114)">
+        <rect id="article-01-4" data-name="article-01" class="cls-9" width="546" height="327" transform="translate(964 64)"/>
       </g>
       <g id="Group_31-2" data-name="Group 31" transform="translate(13 -20)">
-        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="157" height="30" rx="15" transform="translate(219 241)" fill="red"/>
-        <text id="travelling" transform="translate(257 263)" fill="#fff" font-size="18" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">travelling</tspan></text>
+        <rect id="Rectangle_8-2" data-name="Rectangle 8" class="cls-10" width="157" height="30" rx="15" transform="translate(219 241)"/>
+        <text id="travelling" class="cls-11" transform="translate(257 263)"><tspan x="0" y="0">travelling</tspan></text>
       </g>
       <text id="Get_the_best_and_safest_travelling_services_by_TravelHub" data-name="Get the best and safest
 travelling services by
-TravelHub" transform="translate(232 299)" fill="#fff" font-size="34" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">Get the best and safest</tspan><tspan x="0" y="46">travelling services by</tspan><tspan x="0" y="92">TravelHub</tspan></text>
-      <circle id="human-2" data-name="human" cx="22.5" cy="22.5" r="22.5" transform="translate(232 413)" fill="url(#pattern)"/>
-      <text id="John_Doe-2" data-name="John Doe" transform="translate(297 434)" fill="#fff" font-size="14" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">John Doe</tspan></text>
-      <text id="Ratings:_5k-2" data-name="Ratings: 5k" transform="translate(296 449)" fill="#c5c5c5" font-size="10" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">Ratings: 5k</tspan></text>
+TravelHub" class="cls-4" transform="translate(232 299)"><tspan x="0" y="0">Get the best and safest</tspan><tspan x="0" y="46">travelling services by</tspan><tspan x="0" y="92">TravelHub</tspan></text>
+      <circle id="human-2" data-name="human" class="cls-5" cx="22.5" cy="22.5" r="22.5" transform="translate(232 413)"/>
+      <text id="John_Doe-2" data-name="John Doe" class="cls-6" transform="translate(297 434)"><tspan x="0" y="0">John Doe</tspan></text>
+      <text id="Ratings:_5k-2" data-name="Ratings: 5k" class="cls-12" transform="translate(296 449)"><tspan x="0" y="0">Ratings: 5k</tspan></text>
     </g>
   </g>
 </svg>

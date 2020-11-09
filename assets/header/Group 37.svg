@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2588" height="273" viewBox="0 0 2588 273">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 38px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #ffc300;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+        font-family: OpenSans-SemiBold, Open Sans;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Group_37" data-name="Group 37" transform="translate(0 -1319)">
+    <g id="Group_34" data-name="Group 34">
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="2588" height="140" transform="translate(0 1319)"/>
+      <text id="TravelHub" class="cls-2" transform="translate(1193 1399)"><tspan x="0" y="0">TravelHub</tspan></text>
+    </g>
+    <g id="Group_36" data-name="Group 36">
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="2588" height="133" transform="translate(0 1459)"/>
+      <g id="Group_35" data-name="Group 35">
+        <text id="Home" class="cls-4" transform="translate(796 1537)"><tspan x="-43.411" y="0">Home</tspan></text>
+        <text id="About_Us" data-name="About Us" class="cls-4" transform="translate(1030.334 1537)"><tspan x="-66.174" y="0">About Us</tspan></text>
+        <text id="Help" class="cls-4" transform="translate(1263.775 1537)"><tspan x="-33.435" y="0">Help</tspan></text>
+        <text id="Login" class="cls-4" transform="translate(1447.807 1537)"><tspan x="-39.338" y="0">Login</tspan></text>
+        <text id="Join_TravelHub" data-name="Join TravelHub" class="cls-4" transform="translate(1729.73 1537)"><tspan x="-105.886" y="0">Join TravelHub</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -38,7 +38,7 @@
 // } */
 
 body {
-  background: url('C:/Users/yashs/Desktop/landing-page-project/assets/images/photo-1469474968028-56623f02e42e.png');
+  background: url('assets/images/photo-1469474968028-56623f02e42e.png');
   /* // backno-repeat fixed; */
   /* // background:  */
   background-attachment: fixed;
@@ -56,46 +56,47 @@ body {
 //   background-size: cover;
 // } */
 
-.header {
+/* .header {
   /* // float: left; */
-  text-align: center;
+  /* text-align: center; */
   /* // top: auto; */
-}
+/* } */
 
-.header-container {
-  text-align: center;
-  padding-left:6em;
+/* .header-container { */
+  /* text-align: center; */
+  /* padding-left:6em; */
   /* // background-color: black; */
-}
+/* } */
 
-.header-section {
+/* .header-section {
   background-color: black;
   background: fixed;
-}
+} */
 
-#logo {
+/* #logo {
   color: white;
   font-family: 'Montserrat', monospace;
   font-weight: bolder;
-  float: left;
-}
+  /* float: left; */
+  /* text-align: center; */
+  /* margin: 0%; */
+/* } */
 
-.header-option {
-  float: right;
-  font-family: 'Open Sans', monospace;
-  color: white;
-  padding-left: 2em;
-  padding-right: 2em;
+/* .header-option { */
+  /* float: right; */
+  /* font-family: 'Open Sans', monospace; */
+  /* color: white; */
+  /* padding-left: 2em; */
+  /* padding-right: 2em; */
+/* } */
 
-}
+/* #header-option-section { */
+  /* padding-right: 3em; */
+/* } */
 
-#header-option-section {
-  padding-right: 3em;
-}
-
-.button {
-  text-decoration: none;
-  background-color: rgb(98, 0, 255);
+/* .button { */
+  /* text-decoration: none; */
+  /* background-color: rgb(98, 0, 255);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
@@ -103,7 +104,7 @@ body {
   width: 14%;
   width: fit-content;
   height: fit-content;
-}
+} */
 
 #introduction-container {
   padding-bottom: 14em;
@@ -115,19 +116,19 @@ body {
   text-align: center;
 }
 
-.logo-text-header {
+/* .logo-text-header {
   font-family: 'Montserrat', monospace;
   font-weight: bolder;
   color: white;
   /* // padding-left: 6em; */
   /* // padding-top: 3em; */
   /* // float: left; */
-}
+/* } */
 
 .logo-text {
   font-family: 'Montserrat', monospace;
   color: white;
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 16px;
 }
 
@@ -153,16 +154,16 @@ body {
   /* // float: right; */
   text-align: center;
   padding-left: 3em;
-  padding-right: 3em;
+  /* padding-right: 3em; */
   /* // position: relative; */
 }
 
-#header {
-  padding-top: 3em;
+/* #header { */
+  /* padding-top: 3em; */
   /* // padding-left: 5em; */
   /* // padding-right: 5em; */
-  text-align: center;
-}
+  /* text-align: center; */
+/* } */
 
 #headline {
   font-family: 'Montserrat', monospace;
@@ -210,13 +211,13 @@ body {
 
 #service-headline {
   font-family: 'Montserrat', monospace;
-  color: black;
+  color: white;
   font-size: 35px;
   font-weight: bolder;
 }
 
 #services-container {
-  background-color: white;
+  /* background-color: white; */
   padding-top: 3em;
   text-align: center;
 }
@@ -238,7 +239,8 @@ body {
 }
 
 #articles-container {
-  background: initial;
+  /* background: initial; */
+  background-color: rgb(255, 255, 255);
   /* // width: 100%; */
   /* // height: 100%; */
   image-resolution: 100%;
@@ -261,7 +263,7 @@ body {
 
 /* /// sample code */
 .site-footer {
-  background-color: #26272b;
+  background-color: black;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
@@ -474,6 +476,27 @@ body {
   transform: scale(1.3);
 }
 
+/* #logo-section { */
+  /* background-color: #007bb6; */
+/* } */
+
+#header-section {
+  /* width: 100%; */
+  margin: 0%;
+  text-align: center;
+}
+
+.header-component {
+  width: 100%;
+}
+
+.offers-desc {
+  font-size: 10px;
+  line-height: 20px;
+  /* margin: 0%; */
+  /* padding-left: 3em; */
+}
+
   </style>
 
   <!--connecting bootstrap to the project-->
@@ -497,10 +520,12 @@ body {
     </span>
   </header> -->
 
-  <header class="header" id="header">
-    <div class="header-container">
+  <!-- <header class="header" id="header"> -->
+    <!-- <div class="header-container header" id="header">
       <div class="header-section">
-        <p id="logo" class="logo">TravelHub</p>
+        <div id="logo-section">
+          <p id="logo" class="logo">TravelHub</p>
+        </div>
 
         <div id="header-option-section">
           <a href="#"><p id="signup" class="header-option button">Join TravelHub</p></a>
@@ -510,8 +535,13 @@ body {
           <a href="#"><p id="home" class="header-option">Home</p></a>
         </div>
       </div>
-    </div>
-  </header>
+    </div> -->
+  <!-- </header> -->
+
+  <div id="header-section">
+    <!-- <img src="/assets/header/Group 37@2x.png" id="header-component" class="header"> -->
+    <img src="assets/header/Group 41.svg" alt="header" id="header-component" class="header-component">
+  </div>
 
   <div id="root">
     <!--introduction component-->
@@ -560,9 +590,13 @@ body {
     </div>
 
     <!--services component-->
-    <div id="services-container">
+    <div id="services-container" style="background: rgba(38, 37, 51, 0.644) fixed no-repeat; height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;">
       <div id="services-section">
-        <p id="service-headline">Offers for you</p>
+        <p id="service-headline">Services for you</p>
 
        <!-- <p id="headline">Select where you want to go</p> -->
         <!-- <p id="headline-desc">These are some famous places, people usually go to.</p> -->
@@ -573,16 +607,16 @@ body {
         <div id="offers-list">
           <div id="options-list" class="flex-container">
             <div id="paris-card" class="card-01">
-              <img src="assets/cards/Group 12.svg" alt="paris" id="paris" class="option-card">
+              <img src="assets/offers/hotel-card.svg" alt="hotel" id="hotel" class="option-card">
             </div>
             <div id="australia-card" class="card-01">
-              <img src="assets/cards/Group 13.svg" alt="australia" id="australia" class="option-card">
+              <img src="assets/offers/visa-card.svg" alt="visa" id="visa" class="option-card">
             </div>
             <div id="tokyo-card" class="card-01">
-              <img src="assets/cards/Group 14.svg" alt="tokyo" id="tokyo" class="option-card">
+              <img src="assets/offers/food-card.svg" alt="food" id="food" class="option-card">
             </div>
             <div id="brazil-card" class="card-01">
-              <img src="assets/cards/Group 15.svg" alt="brazil" id="brazil" class="option-card">
+              <img src="assets/offers/flight-card.svg" alt="flight" id="flight" class="option-card">
             </div>
           </div>
         </div>
